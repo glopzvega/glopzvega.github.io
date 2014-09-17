@@ -40,4 +40,10 @@ header #datos .title .tag a
 	padding: 2px 3px;
 }
 
+.btn.contacto{
+	background-color: #ea4c89;
+	border: 1px solid #ea4c89;
+	color: white;
+	font-weight: normal;
+}
 
