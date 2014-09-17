@@ -1,0 +1,43 @@
+@font-face {
+    font-family: 'open_sansregular';
+    src: url('OpenSans-Regular-webfont.eot');
+    src: url('OpenSans-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('OpenSans-Regular-webfont.woff') format('woff'),
+         url('OpenSans-Regular-webfont.ttf') format('truetype'),
+         url('OpenSans-Regular-webfont.svg#open_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+body
+{
+	font-family: 'open_sansregular'
+}
+
+header #datos
+{
+	margin: 1em;	
+	/* vertical-align: middle; */
+}
+
+header #datos .subtitle
+{	
+	font-size: 2.1em;	
+}
+
+header #datos .title
+{
+	color: #ea4c89;
+	display: inline-block;	
+	font-size: 1.5em;	
+}
+
+header #datos .title .tag a
+{	
+	/* background: white; */
+	/* border-radius: 5px; */
+	/* color: #ea4c89; */
+	padding: 2px 3px;
+}
+
+
