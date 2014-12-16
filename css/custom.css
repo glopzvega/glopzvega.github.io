@@ -23,13 +23,14 @@ header #datos
 header #datos .subtitle
 {	
 	font-size: 2.1em;	
+	color: #C93DA3;
 }
 
 header #datos .title
 {
-	color: #ea4c89;
+	/* color: #ea4c89; */
 	display: inline-block;	
-	font-size: 1.5em;	
+	font-size: 1.6em;	
 }
 
 header #datos .title .tag a
@@ -37,37 +38,33 @@ header #datos .title .tag a
 	/* background: white; */
 	/* border-radius: 5px; */
 	/* color: #ea4c89; */
+	color: #4292E8;
 	padding: 2px 3px;
 }
 
 .btn.contacto{
-	background-color: #ea4c89;
-	border: 1px solid #ea4c89;
+	/* background-color: #ea4c89; */
+	/* border: 1px solid #ea4c89; C93DA3*/
 	color: white;
 	font-weight: normal;
+	background-color: #0040FF;
+	border: 1px solid #0040FF;
+}
+
+.btn.contacto:hover
+{
+	background-color: #0080FF;
+	border: 2px solid #0040FF;	
 }
 
 div.menu
 {
-	border: 1px solid white;
-	background-color: #fff;	
+	/* border: 1px solid gray; */
+	/*background-color: #fff;	*/
 	position: relative;
 }
 
-div.profile
-{
-	border: 1px solid white;
-	padding-top: 2em;
-	position: relative;
-	width: 700px;
-	margin: 0 auto;
-	/*height: 200px;*/
-	/*overflow: scroll;	*/
-	/*overflow-x: hidden;*/
-	/*overflow-y: hidden;*/
-}
-
-div.experience
+div.experience, div.portafolio
 {
 	border: 1px solid white;
 	position: relative;	
@@ -75,21 +72,28 @@ div.experience
 	overflow-x:hidden;
 }
 
-div.experience .exp .imagen
+div.experience h2, div.portafolio h2
+{
+	text-align: left;
+	float: left;
+	width: 100%
+}
+
+div.experience .exp .imagen, div.portafolio .exp .imagen
 {
 	float: left;
 	margin: 1.5em 1.5em 1.5em 1.5em;
 	width: 10%;	
 }
 
-div.experience .exp .description
+div.experience .exp .description, div.portafolio .exp .description
 {
 	float: left;
 	width: 80%;
 	text-align: left;
 }
 
-div.experience .exp .description .title
+div.experience .exp .description .title, div.portafolio .exp .description .title
 {
 	float: left;
 	font-size: 1.5em;
@@ -105,3 +109,45 @@ div.mastfoot
 	position: relative;	
 }
 
+.masthead-nav > .active > a,
+.masthead-nav > .active > a:hover,
+.masthead-nav > .active > a:focus {
+ /*  color: #0080FF; */
+  border-bottom-color: #C93DA3;
+  font-size: 1.3em;
+}
+
+li > a:hover
+{
+  color: #C93DA3;
+  /*border-bottom-color: #C93DA3;*/
+  /* font-size: 1.3em; */
+}
+
+@media (min-width: 992px) {  
+	div.profile
+	{
+		border: 1px solid white;
+		padding-top: 4em;		
+		position: relative;
+		width: 700px;
+		margin: 0 auto;
+	}
+
+	div.profile .lead
+	{
+		font-size: 1.4em;
+	}
+
+	.portafolio h2, .experience h2
+	{
+		padding-top: 1em;	
+	}
+	
+	.imagen, .description
+	{
+		padding-top: 1em;
+	}
+	
+	
+}
