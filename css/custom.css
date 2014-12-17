@@ -223,8 +223,13 @@ li > a:hover
 		margin: 0;
 	}
 
+	div.experience .exp .description .title span
+	{
+		font-size: 0.8em;
+	}
+
 	div.experience .exp .description p
 	{
-		display: none;
+		display: none;		
 	}
 }
