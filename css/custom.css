@@ -194,10 +194,32 @@ li > a:hover
 	div.experience .exp
 	{
 		width: 100%;
+		margin: 0;
 	}
 	div.experience .exp .description p
 	{
 		display: none;
+	}
+
+	div.experience .exp .imagen
+	{
+		display: block;
+		float: left;
+	}
+
+	div.experience .exp .imagen img
+	{
+		width: 50px;
+		height: 50px;		
+	}
+
+	div.experience .exp .description
+	{
+		display: inline-block;
+		font-size: 0.8em;
+		text-align: left;
+		margin-left: 0.5em;
+
 	}
 
 
