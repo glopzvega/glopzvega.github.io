@@ -76,24 +76,46 @@ div.experience h2, div.portafolio h2
 {
 	text-align: left;
 	float: left;
-	width: 100%
+	width: 100%;	
 }
 
-div.experience .exp .imagen, div.portafolio .exp .imagen
+div.experience .exp
 {
-	float: left;
-	margin: 1.5em 1.5em 1.5em 1.5em;
-	width: 10%;	
+	display: inline-block;
+	overflow: auto;
+	width: 30%; 
+	margin-top:1em;	
+	/* border-bottom: 1px solid gray; */
 }
 
-div.experience .exp .description, div.portafolio .exp .description
+div.experience .exp .description h3
 {
+	font-size: 1.5em;
+}
+
+div.experience .exp .description h3 span
+{
+	color: #C93DA3;
+	display: block;
+	font-size: 0.8em;
+}
+
+div.experience .exp .description p
+{
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+	/* font-size: 0.8em; */
+}
+
+div.portafolio .exp .description
+{
+	display: block;
 	float: left;
 	width: 80%;
 	text-align: left;
 }
 
-div.experience .exp .description .title, div.portafolio .exp .description .title
+div.portafolio .exp .description .title
 {
 	float: left;
 	font-size: 1.5em;
