@@ -178,3 +178,27 @@ li > a:hover
 	
 	
 }
+
+@media (max-width: 768px) {
+		
+	div.experience .exp
+	{
+		width: 45%;
+	}
+
+}
+
+
+@media (max-width: 450px) {
+		
+	div.experience .exp
+	{
+		width: 100%;
+	}
+	div.experience .exp .description p
+	{
+		display: none;
+	}
+
+
+}
