@@ -217,7 +217,7 @@ li > a:hover
 	div.experience .exp .description
 	{
 		display: block;
-		/* font-size: 0.8em; */
+		font-size: 0.9em;
 		text-align: left;
 	}
 
