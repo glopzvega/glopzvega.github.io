@@ -53,8 +53,8 @@ header #datos .title .tag a
 
 .btn.contacto:hover
 {
-	background-color: #0080FF;
-	border: 2px solid #0040FF;	
+	background-color: #C93DA3;
+	border: 2px solid #C93DA3;	
 }
 
 div.menu
@@ -86,6 +86,11 @@ div.experience .exp
 	width: 30%; 
 	margin-top:1em;	
 	/* border-bottom: 1px solid gray; */
+}
+
+div.experience .exp:hover
+{
+	/* font-size: 1.6em; */
 }
 
 div.experience .exp .description h3
