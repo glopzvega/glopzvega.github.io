@@ -85,12 +85,66 @@ div.experience .exp
 	overflow: auto;
 	width: 30%; 
 	margin-top:1em;	
+	padding: 1em 0.5em 1em 0.5em;
 	/* border-bottom: 1px solid gray; */
 }
 
-div.experience .exp:hover
+.exp_hover
 {
-	/* font-size: 1.6em; */
+	/* font-size: 1.6em; */	
+	border-radius: 10px;
+	/*border-bottom: 1px solid gray;*/
+	color: white;	
+	box-shadow: 5px 5px 15px #888888;
+}
+
+.exp_hover.green
+{
+	background-color: #71c837;
+}
+
+.exp_hover.blue
+{
+	background-color: #5599ff;
+}
+
+.exp_hover.orange
+{
+	background-color: #ff7f2a;
+}
+
+.exp_hover.yellow
+{
+	background-color: #ffcc00;
+}
+
+.exp_hover.red
+{
+	background-color: #ff2a2a;
+}
+
+.exp_hover.purple
+{
+	background-color: #800066;
+}
+
+
+
+.exp_hover.white
+{
+	color: gray;
+	/*background-color: #ff7f2a;*/
+}
+
+.exp_img_hover
+{
+	width: 150px;
+	height: 150px;
+}
+
+.exp_span_hover
+{
+	color: white !important;
 }
 
 div.experience .exp .description h3
