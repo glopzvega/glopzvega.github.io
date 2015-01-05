@@ -66,8 +66,9 @@ div.menu
 
 div.experience, div.portafolio
 {
-	/* border: 1px solid white; */
-	position: relative;	
+	 /*border: 1px solid gray; */
+	position: relative;
+	/*width: 100%;	*/
 	overflow: auto;
 	overflow-x:hidden;
 }
@@ -81,12 +82,16 @@ div.experience h2, div.portafolio h2
 
 div.experience .exp
 {
-	display: inline-block;
+	/*display: block;*/
+	float: left;
 	overflow: auto;
+	height: 380px;
 	width: 30%; 
-	margin-top:1em;	
-	padding: 1em 0.5em 1em 0.5em;
-	/* border-bottom: 1px solid gray; */
+	margin-top:1em;
+	margin-bottom:1em;
+	margin-left: 1.5em;	
+	/*padding: 1em 0.5em 1em 0.5em;*/
+	 /*border: 1px solid gray; */
 }
 
 .exp_hover
@@ -94,8 +99,13 @@ div.experience .exp
 	/* font-size: 1.6em; */	
 	border-radius: 10px;
 	/*border-bottom: 1px solid gray;*/
-	color: white;	
+	/*color: white;	*/
 	box-shadow: 5px 5px 15px #888888;
+}
+
+.exp_hover.gray
+{
+	background-color: #E6E6E6;
 }
 
 .exp_hover.green
@@ -144,7 +154,7 @@ div.experience .exp
 
 .exp_span_hover
 {
-	color: white !important;
+	/*color: white !important;*/
 }
 
 div.experience .exp .description h3
