@@ -55,6 +55,7 @@ header #datos .title .tag a
 {
 	background-color: #C93DA3;
 	border: 2px solid #C93DA3;	
+	font-size: 1.5em;
 }
 
 div.menu
@@ -77,7 +78,8 @@ div.experience h2, div.portafolio h2
 {
 	/* text-align: left; */
 	float: left;
-	width: 100%;	
+	width: 100%;
+	color: #C93DA3;
 }
 
 div.experience .exp
@@ -176,12 +178,55 @@ div.experience .exp .description p
 	/* font-size: 0.8em; */
 }
 
+div.portafolio .exp
+{
+	/*border: 1px solid gray;*/
+	overflow: auto;
+	text-align: left;
+	overflow-x:hidden; 
+	/*width: 50%;*/
+	float: left;;
+	height: 180px;
+	/*display: block;
+	float: left;*/
+}
+
 div.portafolio .exp .description
+{	
+	float: left;
+	display: block;
+	width: 80%;
+	margin-left: 2em;
+}
+
+div.portafolio .exp .imagen
 {
 	display: block;
-	float: left;
-	width: 80%;
-	text-align: left;
+	float: right;
+	width: 10%;
+	margin-right: 1em;
+	margin-top: 1em;
+}
+
+
+div.portafolio .exp .description h3
+{
+	/*color: #C93DA3;*/
+	/*display: block;*/
+	font-size: 0.8em;
+	width: 100%;
+}
+
+div.portafolio .exp .description h3 a
+{
+	color: #C93DA3;
+}
+
+
+div.portafolio .exp .description p
+{
+	/*padding-left: 0.5em;
+	padding-right: 0.5em;*/
 }
 
 div.portafolio .exp .description .title
