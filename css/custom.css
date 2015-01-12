@@ -293,6 +293,7 @@ li > a:hover
 	div.experience .exp
 	{
 		width: 45%;
+		height: auto;
 	}
 
 }
@@ -325,6 +326,7 @@ li > a:hover
 	{				
 		margin-top: 1em;
 		width: 100%;
+		height: auto;
 	}
 	
 	div.experience .exp .imagen
