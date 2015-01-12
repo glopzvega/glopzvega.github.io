@@ -293,7 +293,9 @@ li > a:hover
 	div.experience .exp
 	{
 		width: 45%;
-		height: 282px;
+		height: 285px;
+		overflow: auto;
+		overflow-y: hidden;
 	}
 
 }
