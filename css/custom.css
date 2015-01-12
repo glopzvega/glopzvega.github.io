@@ -186,7 +186,7 @@ div.portafolio .exp
 	overflow-x:hidden; 
 	/*width: 50%;*/
 	float: left;;
-	height: 180px;
+	height: 280px;
 	/*display: block;
 	float: left;*/
 }
@@ -195,7 +195,7 @@ div.portafolio .exp .description
 {	
 	float: left;
 	display: block;
-	width: 80%;
+	width: 70%;
 	margin-left: 2em;
 }
 
@@ -203,7 +203,8 @@ div.portafolio .exp .imagen
 {
 	display: block;
 	float: right;
-	width: 10%;
+	width: 22%;
+
 	margin-right: 1em;
 	margin-top: 1em;
 }
