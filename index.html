@@ -1,302 +1,725 @@
-<!DOCTYPE html>
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="Mobile and Web Development HTML5 CSS JavaScript">
-<meta name="author" content="@glopzvega">
-<!-- <link rel="icon" href="../../favicon.ico"> -->
-
-<title>Gerardo A Lopez Vega</title>
-
-<!-- Bootstrap core CSS -->
-<link href="css/bootstrap.min.css" rel="stylesheet">
-
-<!-- Custom styles for this template -->
-<link href="css/cover.css" rel="stylesheet">
-<link href="css/custom.css" rel="stylesheet">
+<!doctype html>
+<!--[if IE 7 ]>    <html lang="en-gb" class="isie ie7 oldie no-js"> <![endif]-->
+<!--[if IE 8 ]>    <html lang="en-gb" class="isie ie8 oldie no-js"> <![endif]-->
+<!--[if IE 9 ]>    <html lang="en-gb" class="isie ie9 no-js"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!-->
+<html lang="en-gb" class="no-js">
+<!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <!--[if lt IE 9]> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <![endif]-->
+    <title>Jerry Vega - Web Developer</title>
+    <meta name="description" content="Desarrollo de Aplicaciones Web y Móviles, Implementación de sistemas ERP y CRM, Odoo.">
+    <meta name="author" content="WebThemez">
+    <!--[if lt IE 9]>
+        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <!--[if lte IE 8]>
+		<script type="text/javascript" src="http://explorercanvas.googlecode.com/svn/trunk/excanvas.js"></script>
+	<![endif]-->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/isotope.css" media="screen" />
+    <link rel="stylesheet" href="js/fancybox/jquery.fancybox.css" type="text/css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="css/da-slider.css" />
+    <!-- Owl Carousel Assets -->
+    <link href="js/owl-carousel/owl.carousel.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css" />
+    <!-- Font Awesome -->
+    <link href="font/css/font-awesome.min.css" rel="stylesheet">
+</head>
 
 <body>
-
-  <div class="site-wrapper">
-
-    <div class="site-wrapper-inner">
-
-      <div class="cover-container main-container">
-        
-
-        <!-- Menu -->
-        <div class="masthead clearfix menu">
-          <div class="inner">
-            <h3 class="masthead-brand"><a target="_blank" href="http://webandmovil.com">webandmovil.com</a></h3>
-            <ul class="nav masthead-nav">
-              <li class="active"><a href="#">Intro</a></li>
-              <li><a href="#">Skills</a></li>
-              <li><a href="#">Portafolio</a></li>
-              <li><a href="#">Contacto</a></li>
-            </ul>
-          </div>
+    <header class="header">
+        <div class="container">
+            <nav class="navbar navbar-inverse" role="navigation">
+                <div class="navbar-header">
+                    <button type="button" id="nav-toggle" class="navbar-toggle" data-toggle="collapse" data-target="#main-nav">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a href="#" class="navbar-brand scroll-top logo"><b>Jerry Vega</b></a>
+                </div>
+                <!--/.navbar-header-->
+                <div id="main-nav" class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav" id="mainNav">
+                        <li class="active"><a href="#home" class="scroll-link">Inicio</a></li>
+                        <li><a href="#aboutUs" class="scroll-link">Acerca De</a></li>
+                        <li><a href="#skills" class="scroll-link">Skills</a></li>
+                        <li><a href="#experience" class="scroll-link">Experiencia</a></li>
+                        <li><a href="#portfolio" class="scroll-link">Portafolio</a></li>
+                        <li><a href="#contactUs" class="scroll-link">Contacto</a></li>
+                    </ul>
+                </div>
+                <!--/.navbar-collapse-->
+            </nav>
+            <!--/.navbar-->
         </div>
-		
-        <div class="inner cover profile">        	
-          
-          <img src="foto.jpg" alt="Gerardo Lopez" height="150px" class="img-circle">
-          
-          <header>
-            <div id="datos">
-              <div class="title">
-                Gerardo A López Vega
-                <span class="tag">
-                  <i><a target="_blank" href="http://twitter.com/glopzvega">@glopzvega</a></i>
-                </span>
-              </div>
-              <div class="subtitle">
-                Project Manager and Web Developer
-              </div>
-            </div>                        
-          </header>          
-
-          <p class="lead">
-            <!-- Software Engineer with +4 years of Experience in Management and Development of Web and Mobile Applications Projects. -->
-            Ingeniero de Software con +4 años de experencia en la Administracion Proyectos y Desarrollo de aplicaciones Web y Móviles.
-
-          </p>
-
-          <p class="lead">
-            <a href="#" class="btn btn-lg btn-default contacto">Contactame</a>
-          </p>
-          <p class="lead">
-            Móvil. 52.(744) 225 42 80
-
-          </p>
-          <p class="lead">
-            Email. glopzvega@webandmovil.com
-
-          </p>
+        <!--/.container-->
+    </header>
+    <!--/.header-->
+    <div id="#top"></div>
+    <section id="home">
+        <div class="banner-container">
+            <img src="images/banner-bg.jpg" alt="banner" />
+            <div class="container banner-content">
+                <div id="da-slider" class="da-slider">
+                    <div class="da-slide">
+                        <h2>Webdesigner</h2>
+                        <p>Amazing free responsive website for free, enjoy!!!</p>
+                        <div class="da-img"></div>
+                    </div>
+                    <div class="da-slide">
+                        <h2>UX/UI Developer</h2>
+                        <p>I develop website using Bootstrap front-end framework..</p>
+                        <div class="da-img"></div>
+                    </div>
+                    <div class="da-slide">
+                        <h2>HTML5/CSS3</h2>
+                        <p>HTML5 is a markup language used for structuring and presenting Web.</p>
+                        <div class="da-img"></div>
+                    </div>
+                    <div class="da-slide">
+                        <h2>JavaScript/jQuery</h2>
+                        <p>jQuery: Write Less, Do More...</p>
+                        <div class="da-img"></div>
+                    </div>
+				<!--  <nav class="da-arrows">
+                        <span class="da-arrows-prev"></span>
+                        <span class="da-arrows-next"></span>
+                    </nav> -->
+                </div>
+            </div>
         </div>
-
-        <div class="inner cover experience">
-          
-          <h2>Experience and Skills</h2>
-          <p>A continuacion muestro las áreas y habilidades que domino asi como mi experiencia en cada una de ellas.</p>
-
-          <div class="exp gray">
-
-            <div class="imagen">
-              <img src="img/sk_html5_2.png" alt="Gerardo Lopez" width="100px" height="100px" class="img-circle">              
+    </section>
+    <section id="introText">
+        <div class="container">
+            <div class="text-center">
+            <h1>Diseño y Desarrollo Web</h1>
+            <p>La Web es mi pasión, siempre busco darle mi toque especial a todo lo que hago, <br>disfruto el poder ayudar a las personas a resolver sus problemas haciendo lo que me gusta. </p>
             </div>
-            <div class="description">
-              <h3 class="title"> Web and Mobile <span> HTML5, CSS3 and JavaScript</span></h3>
-              <p>
-                Desarrollo de aplicaciones Web y Móviles con la mejor tecnologia y el diseño mas moderno. HTML5 mas que un lenguaje es un estandar y tendencia en la Web.
-              </p>
-            </div>
-
-          </div>  
-
-          <div class="exp gray">
-
-            <div class="imagen">
-              <img src="img/sk_android7.png" alt="Gerardo Lopez" width="100px" height="100px" class="img-circle">              
-            </div>
-            <div class="description">
-              <h3 class="title"> Android Apps <span>Java Mobile Development</span></h3>
-              <p>
-                Diseño y Desarrollo de aplicaciones móviles con Android. Integracion con Google Maps, Calendar, Camara y Redes Sociales. Conexion a servicios SOAP y HTTP.  
-              </p>
-            </div>
-
-          </div>        
-
-          <div class="exp gray">
-
-            <div class="imagen">
-              <img src="img/sk_odoo2.png" alt="Gerardo Lopez" width="100px" height="100px" class="img-circle">              
-            </div>
-            <div class="description">
-              <h3 class="title"> ERP and CRM <span>Odoo Implementation</span> </h3>
-              <p>
-                Implementacion y Desarrollo de sistema ERP (Odoo) con una gran variedad de modulos como CRM, Punto de Venta, Facturacion, Pagos, Contabilidad Electrónica y Nómina.
-              </p>
-            </div>
-
-          </div>
-
-          
-
-          <div class="exp gray">
-
-            <div class="imagen">
-              <img src="img/sk_php5.png" alt="Gerardo Lopez" width="100px" height="100px" class="img-circle">              
-            </div>
-            <div class="description">
-              <h3 class="title"> PHP <span> Laravel, Yii and CodeIgniter </span></h3>
-              <p>
-                Desarrollo de aplicaciones Web dinámicas con conexion a base de datos MySQL. Integracion de frameworks de desarrollo y Programación Orientada a Objetos. 
-              </p>
-            </div>
-
-          </div>
-
-          <div class="exp gray">
-
-            <div class="imagen">
-              <img src="img/sk_java.png" alt="Gerardo Lopez" width="100px" height="100px" class="img-circle">              
-            </div>
-            <div class="description">
-              <h3 class="title"> Java <span> Spring, Hibernate and Struts </span></h3>
-              <p>
-                Desarrollo de Aplicaciones Web Empresariales, uso de Patrones de diseño como MVC, DAO y DTO. Abstraccion de las diferentes capas con ayuda de frameworks Spring, Hibernate y Struts.
-              </p>
-            </div>
-
-          </div>  
-
-          <div class="exp gray">
-
-            <div class="imagen">
-              <img src="img/sk_python3.png" alt="Gerardo Lopez" width="100px" height="100px" class="img-circle">              
-            </div>
-            <div class="description">
-              <h3 class="title"> Python <span>Web Development Odoo</span></h3>              
-              <p>
-                Desarrollo  de aplicaciones web con Python y Construccion de modulos para el sistema ERP de código abierto Odoo desarrollado con Python y PostgreSQL.
-              </p>
-            </div>
-
-          </div>    
-
-                
-
-          
         </div>
 
-        <div class="inner cover portafolio">
-          
-          <h2>Projects and Developments</h2>
-          <p>A continuacion se muestran algunos de los ultimos trabajos en los que he participado.</p>
-
-          <div class="exp">
-
-            <div class="imagen">
-              <a href="http://savvysystems.com.mx" target="_blank"><img src="img/portafolio/savvy.png" alt="Gerardo Lopez" width="150px" height="150px" class="img-circle"></a>              
+    </section>
+    <!--About-->
+    <section id="aboutUs" class="secPad">
+        <div class="container">
+            <div class="heading text-center">
+                <!-- Heading -->
+                <h2>Soy Gerardo, Ingeniero de Software y Desarrollador Web</h2>
+                <p>Tengo +5 años de experiencia en el desarrollo de aplicaciones y administración de proyectos. <br>Me dedico principalmente a prestar servicios y dar asesorías a empresas relacionadas al desarrollo de Aplicaciones Web y Móviles <br> así como la implementación de Sistemas de Sotware ERP y CRM.</p>
             </div>
-            <div class="description">
-              
-              <h3 class="title"> 
-                <i><a target="_blank" href="http://savvysystems.com.mx">Contabilidad Electrónica México 2014</a></i>
-              </h3>
-              <p>
-                Sistema de contabilidad desarrollado para llevar los registros contables de acuerdo a las reformas fiscales presentadas en el 2014 para México. El sistema comprende la captura de Facturas, Pagos, Polizas, asi como tambien la generacion de los reportes XML a entregar al SAT. El sistema ya tiene precargados los distintos catalogos fiscales como Bancos, Cuentas, Monedas y Métodos de pago.
-              </p>
+            <div class="row">
+                <!-- item -->
+                <div class="col-md-4 text-center tileBox">
+                   <div class="txtHead"> <i class="fa fa-html5"></i>
+                    <h3>HTML5/CSS3 <span class="id-color"></span></h3></div>
+                    <p>Desarrollo tu sitio con la mejor tecnología 
+                    y el diseño mas moderno HTML5, CSS3 y JS.</p>
+                </div>
+                <!-- end: -->
+
+                <!-- item -->
+                <div class="col-md-4 text-center tileBox">
+                    <div class="txtHead"><i class="fa fa-github"></i>
+                    <h3>DESARROLLO WEB <span class="id-color"></span></h3></div>
+                    <p>Transformamos tus requerimientos en soluciones aplicando lo mejor en tecnologias de desarrollo.</p>
+                </div>
+                <!-- end: -->
+
+                <!-- item -->
+                <div class="col-md-4 text-center tileBox">
+                    <div class="txtHead"><i class="fa fa-rocket"></i>
+                    <h3>ERP/CRM<span class="id-color"></span></h3></div>
+                    <p>Optimiza tus procesos, gestiona tus recursos y aumenta tus ventas de manera efectiva.</p>
+                </div>
+                <!-- end: -->
             </div>
-
-          </div>
-          
-          <div class="exp">
-
-            <div class="imagen">
-              <a href="https://www.youtube.com/watch?v=vUPEmMgat6E&feature=youtu.be" target="_blank"><img src="img/portafolio/nomina.png" alt="Gerardo Lopez" width="150px" height="150px" class="img-circle"></a>              
-            </div>
-            <div class="description">              
-              <h3 class="title"> 
-                <i><a target="_blank" href="https://www.youtube.com/watch?v=vUPEmMgat6E&feature=youtu.be">Cálculo de Nómina y Timbrado</a></i>
-              </h3>
-              <p>
-                Sistema para realizar el calculo de Nómina de sus trabajadores considerando las distintas percepciones y deducciones utilizadas en México como los son el ISR y las Cuotas de Seguridad Social (IMSS). El sistema le permite llevar el registro de sus empleados, contratos y calculo de sus Nóminas.
-              </p>
-            </div>
-
-          </div>  
-
-          <div class="exp">
-
-            <div class="imagen">
-              <a href="https://www.odoo.com" target="_blank"><img src="img/portafolio/odoo.png" alt="Gerardo Lopez" width="150px" height="150px" class="img-circle"></a>              
-            </div>
-            <div class="description">
-              <h3 class="title"> 
-                <i><a target="_blank" href="https://www.odoo.com">Desarrollo de Módulos e Implementacion OpenERP (Odoo)</a></i>
-              </h3>
-              <p>
-                Consultor Tecnico y Funcional en proyectos de implementación de ERP para diversos rubros como TI, Inmobiliario, Financiero, Publicitario y Minoristas. Además he desarrollado diversos modulos para extender la funcionalidad principal del sistema en el area de Ventas, Almacen, Fabricacion, Contabilidad y Finanzas. Algunos de los modulos desarrollados son Calculo de Nómina para México y Contabilidad Electrónica.
-              </p>
-            </div>
-
-          </div>  
-
-          <div class="exp">
-
-            <div class="imagen">
-              <a href="https://taecel.com/portal/recargas-movil-telcel.htm" target="_blank"><img src="img/portafolio/taecel.png" alt="Gerardo Lopez" width="150px" height="150px" class="img-circle"></a>              
-            </div>
-            <div class="description">
-              
-              <h3 class="title"> 
-                <i><a target="_blank" href="https://taecel.com/portal/recargas-movil-telcel.htm">Android App para Venta de Tiempo Aire</a></i>
-              </h3>
-              <p>
-                Aplicacion Android disponible en Google Play para la venta de Tiempo Aire (Móvil) para las diversas marcas como Telcel, Movistar, Unefon, etc. La aplicacion permite registrarse desde la misma App, realizar recargas, consultar el saldo, consultar las ventas del dia, reportar pagos, capturar y enviar la fotografia de la ficha de deposito.
-              </p>
-            </div>
-
-          </div>
-
-          <div class="exp">
-
-            <div class="imagen">
-              <a href="http://desiteg.com/chat-empresarial.htm" target="_blank"><img src="img/portafolio/chat.png" alt="Gerardo Lopez" width="150px" height="150px" class="img-circle"></a>              
-            </div>
-            <div class="description">
-              <h3 class="title">  
-                <i><a target="_blank" href="http://desiteg.com/chat-empresarial.htm">Sistema de Chat Empresarial</a></i>
-              </h3>
-              <p>
-                Aplicacion Web que permite gestionar un servidor de Chat para los sitios Web. La aplicacion permite crear usuarios, crear grupos, indicar el numero de sesiones activas para cada uno, numero de usuarios por cliente y reporte de los chats registrados.
-              </p>
-            </div>
-
-          </div>
-
-          <div class="exp">
-
-            <div class="imagen">
-              <a href="http://www.openbravo.com/" target="_blank"><img src="img/portafolio/openbravo.png" alt="Gerardo Lopez" width="150px" height="150px" class="img-circle"></a>              
-            </div>
-            <div class="description">
-              
-              <h3 class="title"> 
-                <i><a target="_blank" href="http://www.openbravo.com/">Implementacion de Openbravo ERP</a></i>
-              </h3>
-              <p>
-                Implementacion de version 3.0 de Openbravo Community Edition y desarrollo de modulos para reportes basados en lenguaje Java.
-              </p>
-            </div>
-
-          </div>         
-
         </div>
-
-        <div class="mastfoot">
-          <div class="inner">
-            <p>Powered by Gerardo A Lopez Vega 
-              <i><a target="_blank" href="https://twitter.com/glopzvega">@glopzvega</a></i>
-            </p>
-          </div>
+    </section>
+    <!--Quote-->
+    <section id="quote" class="bg-parlex">
+        <div class="parlex-back">
+            <div class="container secPad text-center">
+				<h2>If I asked people what they wanted, they would have said ‘Faster Horses’.</h2><h3>-Henry Ford</h3>
+            </div>
+            <!--/.container-->
         </div>
+    </section>
+    
+    <!--Skills-->
+    <section id="skills" class="secPad white">
+    	<div class="container">
+        <div class="heading text-center">
+                <!-- Heading -->
+                <h2>Skills</h2>
+                <p>A continuación muestro las áreas y habilidades que domino asi como mi experiencia en cada una de ellas.</p>
+            </div>
+        	<div class="row">
+                <div class="col-sm-6">
+                    <h2>Fron-End <strong>Skills</strong></h2>
+                    <p class="mrgBtm20">
 
-      </div>
-
+                        Porque la primera impresión es la que cuenta. Desarrollar tu sitio con la mejor tecnología y el diseño mas moderno es mi deber, el uso de HTML5, CSS3 y JS, me permiten darle la mejor interaccion y experiencia de usuario.
+                    </p>
+                    <div class="row">
+                        <div class="col-md-2 skilltitle">HTML5</div>
+                        <div class="col-md-8">
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%;">
+                                    <span class="sr-only">90% Complete</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-2 skilltitle">CSS3</div>
+                        <div class="col-md-8">
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%;">
+                                    <span class="sr-only">90% Complete</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-2 skilltitle">JavaScript</div>
+                        <div class="col-md-8">
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;">
+                                    <span class="sr-only">80% Complete</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-2 skilltitle">jQuery/Ajax</div>
+                        <div class="col-md-8">
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%;">
+                                    <span class="sr-only">90% Complete</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>      
+                </div>
+                <div class="col-sm-6">
+                    <h2>Back-End <strong>Skills</strong></h2>
+                    <p class="mrgBtm20">
+                       He tomado varios cursos de Programación que me han permitido superar los diferentes desafios que se presentan a la hora de desarrollar un proyecto y poder responder de la mejor manera a la hora de llevarlos a cabo.                
+                    </p>
+                    <div class="row">
+                        <div class="col-md-2 skilltitle">Python</div>
+                        <div class="col-md-8">
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%;">
+                                    <span class="sr-only">75% Complete</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-2 skilltitle">PHP</div>
+                        <div class="col-md-8">
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%;">
+                                    <span class="sr-only">90% Complete</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-2 skilltitle">Java</div>
+                        <div class="col-md-8">
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;">
+                                    <span class="sr-only">80% Complete</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-2 skilltitle">Android</div>
+                        <div class="col-md-8">
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;">
+                                    <span class="sr-only">80% Complete</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>        
+    </section>
+    
+    <!--Experience-->
+    <section id="experience" class="secPad">
+    	<div class="container">     
+           <div class="heading text-center">
+                <!-- Heading -->
+                <h2>Experiencia Profesional</h2>
+                <p>Durante los ultimos años he podido trabajar con increibles empresas y he podido participar en proyectos fascinantes. </p>
+            </div>
+        <div id="timeline"><div class="row timeline-movement timeline-movement-top">
+        <div class="timeline-badge timeline-future-movement">
+            <a href="#">
+                <span class="glyphicon glyphicon-plus"></span>
+            </a>
+        </div>
+        <div class="timeline-badge timeline-filter-movement">
+            <a href="#">
+                <span class="glyphicon glyphicon-time"></span>
+            </a>
+        </div>
+    
+    </div>
+    <div class="row timeline-movement">
+    
+        <div class="timeline-badge">
+            <span class="timeline-balloon-date-day">Dic</span>
+            <span class="timeline-balloon-date-month">2015</span>
+        </div>
+    
+    
+        <div class="col-sm-6  timeline-item">
+            <div class="row">
+                <div class="col-sm-11">
+                    <div class="timeline-panel credits">
+                        <ul class="timeline-panel-ul">
+                            <li><span class="importo">Biblioteca Virtual - Uhipocrates.mx</span></li>
+                            <li><span class="causale">Prestamo, Devolucion, Renovacion, Busqueda y Consulta, Reportes. </span> </li>
+                            <li><p><small class="text-muted"> 08/11/2015 - Present</small></p> </li>
+                        </ul>
+                    </div>
+    
+                </div>
+            </div>
+        </div>
+    
+        <div class="col-sm-6  timeline-item">
+            <div class="row">
+                <div class="col-sm-offset-1 col-sm-11">
+                    <div class="timeline-panel debits">
+                        <ul class="timeline-panel-ul">
+                            <li><span class="importo">Facturmx.com - Facturacion Electrónica</span></li>
+                            <li><span class="causale">Sistema de Facturación Electronica desarrollado sobre python, permite timbrar tus facturas, gestionar los datos de tus clientes y productos. </span> </li>
+                            <li><p><small class="text-muted"> 10/06/2015 - 18/08/2015</small></p> </li>
+                        </ul>
+                    </div>    
+                </div>
+            </div>
+        </div>
     </div>
 
-  </div>
+    <div class="row timeline-movement">
+    
+        <div class="timeline-badge">
+            <span class="timeline-balloon-date-day">Dic</span>
+            <span class="timeline-balloon-date-month">2015</span>
+        </div>
+    
+    
+        <div class="col-sm-6  timeline-item">
+            <div class="row">
+                <div class="col-sm-11">
+                    <!-- <div class="timeline-panel credits">
+                        <ul class="timeline-panel-ul">
+                            <li><span class="importo">Biblioteca Virtual</span></li>
+                            <li><span class="causale">Prestamo, Devolucion, Renovacion, Busqueda y Consulta, Reportes. </span> </li>
+                            <li><p><small class="text-muted"> 08/11/2015 - Present</small></p> </li>
+                        </ul>
+                    </div> -->
+    
+                </div>
+            </div>
+        </div>
+    
+        <div class="col-sm-6  timeline-item">
+            <div class="row">
+                <div class="col-sm-offset-1 col-sm-11">
+                    <div class="timeline-panel debits">
+                        <ul class="timeline-panel-ul">
+                            <li><span class="importo">Administración de Clinica Dental</span></li>
+                            <li><span class="causale">Desarrollo de Sistema para la administración de Pacientes e historias clínicas, para </span> </li>
+                            <li><p><small class="text-muted"> 10/06/2015 - 18/08/2015</small></p> </li>
+                        </ul>
+                    </div>
+                    <div class="timeline-panel debits">
+                        <ul class="timeline-panel-ul">
+                            <li><span class="importo">Sitio Web uhipocrates.edu.mx</span></li>
+                            <li><span class="causale">Desarrollo y Mantenimiento del Sitio Web de la Universidad. </span> </li>
+                            <li><p><small class="text-muted"> 10/06/2015 - 18/08/2015</small></p> </li>
+                        </ul>
+                    </div>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!--due -->
+    
+    <div class="row timeline-movement">
+    
+    
+        <div class="timeline-badge">
+            <span class="timeline-balloon-date-day">Mar</span>
+            <span class="timeline-balloon-date-month">2013</span>
+        </div>
 
-  <!-- Bootstrap core JavaScript
-  ================================================== -->
-  <!-- Placed at the end of the document so the pages load faster -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/profile.js"></script>
-  <!--<script src="js/docs.min.js"></script>-->
-  <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-  <!--<script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>-->
+        <div class="col-sm-6  timeline-item">
+            <div class="row">
+                <div class="col-sm-11">
+                    <div class="timeline-panel credits">
+                        <ul class="timeline-panel-ul">
+                            <li><span class="importo">Savvysystems.com.mx - Contabilidad Electrónica</span></li>
+                            <li><span class="causale">Sitio Web, Desarrollo de Software, Integración, Lectura de XML, Contabilidad Electrónica SAT, Reportes XML y PDF. </span> </li>
+                            <li><p><small class="text-muted"> 08/11/2015 - Present</small></p> </li>
+                        </ul>
+                    </div>
+    
+                </div>
+            </div>
+        </div>
+    
+        <div class="col-sm-offset-6 col-sm-6  timeline-item">
+            <div class="row">
+                <div class="col-sm-offset-1 col-sm-11">
+                    <div class="timeline-panel debits">
+                        <ul class="timeline-panel-ul">
+                            <li><span class="importo">Iozoft.com - Diseño y Desarrollo Web</span></li>
+                            <li><span class="causale">Desarrollo de Sitio Web, implementación de Odoo 8, Desarrollo de Módulos para la administración de la empresa, Integración con Sistema de Facturación Electrónica.</span> </li>
+                            <li><p><small class="text-muted"> 10/03/2013 - 18/02/2014</small></p> </li>
+                        </ul>
+                    </div>
+    
+                </div>
+            </div>
+        </div>
+    
+        <div class="col-sm-6  timeline-item">
+            <div class="row">
+                <div class="col-sm-11">
+                    <div class="timeline-panel credits">
+                        <ul class="timeline-panel-ul">
+                            <li><span class="importo">Implementación de Odoo ERP/CRM - Desiteg.com</span></li>
+                            <li><span class="causale">Consultor Funcional y Técnico de Odoo 7 y 8, implementando odoo en 10+ distintas empresas de diferentes rubros como TI, Ventas, Manufactura, Publicidad,etc. </span> </li>
+                            <li><p><small class="text-muted"> 10/03/2013 - 18/02/2014</small></p> </li>
+                        </ul>
+                    </div>
+
+                    <div class="timeline-panel credits">
+                        <ul class="timeline-panel-ul">
+                            <li><span class="importo">Calculo de Nómina Openerp 7</span></li>
+                            <li><span class="causale">Módulo desarrollado para Openerp V7 para realizar el cálculo de la nómina tomando en cuenta Impuestos locales de México </span> </li>
+                            <li><p><small class="text-muted"> 10/03/2013 - 18/02/2014</small></p> </li>
+                        </ul>
+                    </div>
+    
+                </div>
+            </div>
+        </div>
+    
+    
+    </div>
+    <div class="row timeline-movement">
+    
+    
+        <div class="timeline-badge">
+            <span class="timeline-balloon-date-day">Jan</span>
+            <span class="timeline-balloon-date-month">2010</span>
+        </div>
+    
+        <div class="col-sm-offset-6 col-sm-6  timeline-item">
+            <div class="row">
+                <div class="col-sm-offset-1 col-sm-11">
+                    <div class="timeline-panel debits">
+                        <ul class="timeline-panel-ul">
+                            <li><span class="importo">Chat Empresarial - <a href='http://www.desiteg.com/chat-empresarial.htm' target='_blank'>Desiteg.com</a></span></li>
+                            <li><span class="causale">Sistema de Chat Multiempresa desarrollada en Java, cuenta con: Bitacora de Mensajes, Reportes, Usuarios y Grupos. </span> </li>
+                            <li><p><small class="text-muted"> 11/01/2010 - 10/03/2013</small></p> </li>
+                        </ul>
+                    </div>
+
+                    <div class="timeline-panel debits">
+                        <ul class="timeline-panel-ul">
+                            <li><span class="importo">Desarrollo Android - <a href='https://taecel.com/portal/recargas-movil-telcel.htm' target="_blank">Taecel.com</a></span></li>
+                            <li><span class="causale">Aplicación para venta de Tiempo Aire Celular desarrollada en Android </span> </li>
+                            <li><p><small class="text-muted"> 11/01/2010 - 10/03/2013</small></p> </li>
+                        </ul>
+                    </div>
+    
+                </div>
+            </div>
+        </div>
+    
+        <div class="col-sm-6  timeline-item">
+            <div class="row">
+                <div class="col-sm-11">
+                    <div class="timeline-panel credits">
+                        <ul class="timeline-panel-ul">
+                            <li><span class="importo">Consultor Java - Saludhds.com.mx</span></li>
+                            <li><span class="causale">Desarrollo de Aplicaciones Java Web Servlet's y JSP's </span> </li>
+                            <li><p><small class="text-muted"> 11/11/2011 - 20/05/2014</small></p> </li>
+                        </ul>
+                    </div>
+    
+                </div>
+            </div>
+        </div>
+    
+    
+    </div>
+    </div>
+    </div>
+    
+    </section>
+    
+  
+   <!--Portfolio-->
+    <section id="portfolio" class="page-section section appear clearfix secPad">
+        <div class="container">
+
+            <div class="heading text-center">
+                <!-- Heading -->
+                <h2>Portfolio</h2>
+                <p>At lorem Ipsum available, but the majority have suffered alteration in some form by injected humour.</p>
+            </div>
+
+            <div class="row">
+                <nav id="filter" class="col-md-12 text-center">
+                    <ul>
+                        <li><a href="#" class="current btn-theme btn-small" data-filter="*">All</a></li>
+                        <li><a href="#" class="btn-theme btn-small" data-filter=".webdesign">Web Design</a></li>
+                        <li><a href="#" class="btn-theme btn-small" data-filter=".photography">Photography</a></li>
+                        <li><a href="#" class="btn-theme btn-small" data-filter=".print">Print</a></li>
+                    </ul>
+                </nav>
+                <div class="col-md-12">
+                    <div class="row">
+                        <div class="portfolio-items isotopeWrapper clearfix" id="3">
+
+                            <article class="col-sm-4 isotopeItem webdesign">
+                                <div class="portfolio-item">
+                                    <img src="images/portfolio/img1.jpg" alt="" />
+                                    <div class="portfolio-desc align-center">
+                                        <div class="folio-info">
+                                            <a href="images/portfolio/img1.jpg" class="fancybox">
+                                                <h5>Project Name</h5>
+                                                <i class="fa fa-arrows-alt fa-2x"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+
+                            <article class="col-sm-4 isotopeItem photography">
+                                <div class="portfolio-item">
+                                    <img src="images/portfolio/img2.jpg" alt="" />
+                                    <div class="portfolio-desc align-center">
+                                        <div class="folio-info">
+                                            <a href="images/portfolio/img2.jpg" class="fancybox">
+                                                <h5>Project Name</h5>
+                                                <i class="fa fa-arrows-alt fa-2x"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+
+
+                            <article class="col-sm-4 isotopeItem photography">
+                                <div class="portfolio-item">
+                                    <img src="images/portfolio/img3.jpg" alt="" />
+                                    <div class="portfolio-desc align-center">
+                                        <div class="folio-info">
+                                            <a href="images/portfolio/img3.jpg" class="fancybox">
+                                                <h5>Project Name</h5>
+                                                <i class="fa fa-arrows-alt fa-2x"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+
+                            <article class="col-sm-4 isotopeItem print">
+                                <div class="portfolio-item">
+                                    <img src="images/portfolio/img4.jpg" alt="" />
+                                    <div class="portfolio-desc align-center">
+                                        <div class="folio-info">
+                                            <a href="images/portfolio/img4.jpg" class="fancybox">
+                                                <h5>Project Name</h5>
+                                                <i class="fa fa-arrows-alt fa-2x"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+
+                            <article class="col-sm-4 isotopeItem photography">
+                                <div class="portfolio-item">
+                                    <img src="images/portfolio/img5.jpg" alt="" />
+                                    <div class="portfolio-desc align-center">
+                                        <div class="folio-info">
+                                            <a href="images/portfolio/img5.jpg" class="fancybox">
+                                                <h5>Project Name</h5>
+                                                <i class="fa fa-arrows-alt fa-2x"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+
+                            <article class="col-sm-4 isotopeItem webdesign">
+                                <div class="portfolio-item">
+                                    <img src="images/portfolio/img6.jpg" alt="" />
+                                    <div class="portfolio-desc align-center">
+                                        <div class="folio-info">
+                                            <a href="images/portfolio/img6.jpg" class="fancybox">
+                                                <h5>Project Name</h5>
+                                                <i class="fa fa-arrows-alt fa-2x"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+
+                            <article class="col-sm-4 isotopeItem print">
+                                <div class="portfolio-item">
+                                    <img src="images/portfolio/img7.jpg" alt="" />
+                                    <div class="portfolio-desc align-center">
+                                        <div class="folio-info">
+                                            <a href="images/portfolio/img7.jpg" class="fancybox">
+                                                <h5>Project Name</h5>
+                                                <i class="fa fa-arrows-alt fa-2x"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+
+                            <article class="col-sm-4 isotopeItem photography">
+                                <div class="portfolio-item">
+                                    <img src="images/portfolio/img8.jpg" alt="" />
+                                    <div class="portfolio-desc align-center">
+                                        <div class="folio-info">
+                                            <a href="images/portfolio/img8.jpg" class="fancybox">
+                                                <h5>Project Name</h5>
+                                                <i class="fa fa-arrows-alt fa-2x"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+
+                            <article class="col-sm-4 isotopeItem print">
+                                <div class="portfolio-item">
+                                    <img src="images/portfolio/img9.jpg" alt="" />
+                                    <div class="portfolio-desc align-center">
+                                        <div class="folio-info">
+                                            <a href="images/portfolio/img9.jpg" class="fancybox">
+                                                <h5>Project Name</h5>
+                                                <i class="fa fa-arrows-alt fa-2x"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+
+                    </div>
+
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+	<!--Contact -->
+    <section id="contactUs" class="page-section secPad">
+        <div class="container">
+
+            <div class="row">
+                <div class="heading text-center">
+                    <!-- Heading -->
+                    <h2>Let's Keep In Touch!</h2>
+                    <p>Thank you for visiting out my profile. If you would like to get into contact with me, please fill out the form below.</p>
+                </div>
+            </div>
+
+            <div class="row mrgn30">
+
+                <form method="post" action="" id="contactfrm" role="form">
+
+                    <div class="col-sm-4">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" class="form-control" name="name" id="name" placeholder="Enter name" title="Please enter your name (at least 2 characters)">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" class="form-control" name="email" id="email" placeholder="Enter email" title="Please enter a valid email address">
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="form-group">
+                            <label for="comments">Comments</label>
+                            <textarea name="comment" class="form-control" id="comments" cols="3" rows="5" placeholder="Enter your message…" title="Please enter your message (at least 10 characters)"></textarea>
+                        </div>
+                        <button name="submit" type="submit" class="btn btn-lg btn-primary" id="submit">Submit</button>
+                        <div class="result"></div>
+                    </div>
+                </form>
+                <div class="col-sm-4">
+                    <h4>Address:</h4>
+                    <address>
+                        WebThemez Company<br>
+                        134 Stilla. Tae., 414515<br>
+                        Leorislon, SA 02434-34534 USA
+                        <br>
+                    </address>
+                    <h4>Phone:</h4>
+                    <address>
+                        12345-49589-2<br>
+                    </address>
+                </div>
+            </div>
+        </div>
+        <!--/.container-->
+    </section>
+    <footer>
+        <div class="container">
+            <div class="social text-center">
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-dribbble"></i></a>
+                <a href="#"><i class="fa fa-flickr"></i></a>
+                <a href="#"><i class="fa fa-github"></i></a>
+            </div>
+
+            <div class="clear"></div>
+            <!--CLEAR FLOATS-->
+        </div>
+    </footer>
+    <!--/.page-section-->
+    <section class="copyright">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 text-center">
+                    Copyright 2014 | All Rights Reserved  -- Template by <a href="http://webThemez.com">WebThemez.com</a>
+                </div>
+            </div>
+            <!-- / .row -->
+        </div>
+    </section>
+    <a href="#top" class="topHome"><i class="fa fa-chevron-up fa-2x"></i></a>
+
+    <!--[if lte IE 8]><script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script><![endif]-->
+    <script src="js/modernizr-latest.js"></script>
+    <script src="js/jquery-1.8.2.min.js" type="text/javascript"></script>
+    <script src="js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="js/jquery.isotope.min.js" type="text/javascript"></script>
+    <script src="js/fancybox/jquery.fancybox.pack.js" type="text/javascript"></script>
+    <script src="js/jquery.nav.js" type="text/javascript"></script>
+    <script src="js/jquery.cslider.js" type="text/javascript"></script>
+    <script src="js/custom.js" type="text/javascript"></script>
+    <script src="js/owl-carousel/owl.carousel.js"></script>
 </body>
+</html>
